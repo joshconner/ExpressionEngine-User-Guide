@@ -52,7 +52,7 @@ DB_PORT=3306
 $config['save_tmpl_files'] = 'y';
 
 $config['base_url'] = $_ENV['BASE_URL'];
-$config['site_url'] = $config['base_url'];
+$config['site_url'] = $config['BASE_URL'];
 
 $config['app_version'] = '7.2.0';
 $config['encryption_key'] = 'bb748b72de235352315122d00';
